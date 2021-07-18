@@ -17,7 +17,7 @@
 
 <body>
     <main class=" d-flex">
-        <section class="sidebar col-xl-1">
+        <section class="sidebar d-none d-xl-flex col-xl-1">
             <div class="sticky-top">
                 <a class="p-2" href="#perfil" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Perfil"><img src="./img/perfil.png" alt=""></a>
                 <a class="p-2" href="#formacion" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Formaciòn"><img src="./img/formacion.png" alt=""></a>
@@ -31,10 +31,10 @@
             </div>
             <!--Perfil-->
             <div class="perfil">
-                <div class="imagen col-5">
+                <div class="imagen d-none d-lg-flex col-lg-5">
                     <img src="./img/perfil.png" alt="">
                 </div>
-                <div class="texto col-6">
+                <div class="texto col-12 col-lg-6">
                     <a name="perfil"></a>
                     <h1>Perfil</h1>
                     <p>
@@ -48,10 +48,10 @@
                 <a name="formacion"></a>
                 <h1 class="text-center">Formación</h1>
                 <div>
-                    <div class="imagen col-5">
+                    <div class="imagen d-none d-lg-flex col-lg-5">
                         <img src="./img/colegio.png" alt="">
                     </div>
-                    <div class="texto col-6">
+                    <div class="texto col-12 col-lg-6">
                         <a name="perfil"></a>
                         <h2>Bachiller en educación media</h1>
                             <p>
@@ -60,10 +60,10 @@
                     </div>
                 </div>
                 <div>
-                    <div class="imagen col-5">
+                    <div class="imagen d-none d-lg-flex col-lg-5">
                         <img src="./img/universidad.png" alt="">
                     </div>
-                    <div class="texto col-6">
+                    <div class="texto  col-12 col-lg-6">
                         <a name="perfil"></a>
                         <h2>Técnico en Desarrollo y diseño Web</h1>
                             <p>
@@ -76,7 +76,7 @@
             <div class="habilidades">
                 <a name="habilidades"></a>
                 <h1 class="text-center">Habilidades y Aptitudes</h1>
-                <div>
+                <div class="col-5">
                     <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                             <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
