@@ -1,0 +1,131 @@
+body::-webkit-scrollbar {
+    width: 7px;
+    background: $negro;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: $amarillo;
+    border-radius: 5px;
+}
+
+main {
+    .sidebar {
+        background: rgb(92, 175, 193);
+        background: linear-gradient(0deg, rgba(92, 175, 193, 1) 30%, rgba(228, 27, 69, 1) 100%);
+        div {
+            margin-top: 90%;
+            a {
+                transition: transform 250ms;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 80%;
+                }
+            }
+            a:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+    .cuerpo {
+        .primer {
+            background-image: url(../img/una-taza-de-javascript.png);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+        }
+        .perfil {
+            display: flex;
+            flex-direction: row;
+            background: $negro;
+            padding: 10vh 0vw;
+            .imagen {
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 60%;
+                }
+            }
+            .texto {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+                h1 {
+                    font-family: 'Yogomi', cursive;
+                    width: 100vw;
+                    color: $rosa;
+                }
+                p {
+                    font-family: 'Roboto', sans-serif;
+                    text-align: justify;
+                    span {
+                        font-family: 'Yogomi', cursive;
+                        color: $celeste;
+                        font-size: 2rem;
+                    }
+                    width: 50vw;
+                    color: $blanco;
+                }
+            }
+        }
+        .formacion {
+            background: $negro;
+            padding: 5vh 0vw;
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Yogomi', cursive;
+                color: $rosa;
+            }
+            div {
+                margin-top: 3vh;
+                display: flex;
+                flex-direction: row-reverse;
+                .imagen {
+                    display: flex;
+                    justify-content: center;
+                    img {
+                        width: 60%;
+                    }
+                }
+                .texto {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    text-align: center;
+                    h2 {
+                        font-family: 'Yogomi', cursive;
+                        width: 100vw;
+                        color: $amarillo;
+                    }
+                    p {
+                        font-family: 'Roboto', sans-serif;
+                        text-align: justify;
+                        span {
+                            font-family: 'Yogomi', cursive;
+                            color: $celeste;
+                            font-size: 2rem;
+                        }
+                        width: 50vw;
+                        color: $blanco;
+                    }
+                }
+            }
+            div:last-child {
+                flex-direction: row;
+            }
+        }
+        .habilidades {
+            background: $negro;
+            padding: 5vh 0vw;
+            display: flex;
+            flex-direction: column;
+            h1 {
+                font-family: 'Yogomi', cursive;
+                color: $rosa;
+            }
+        }
+    }
+}

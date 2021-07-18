@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <main class=" d-flex">
+        <section class="sidebar col-xl-1">
+            <div class="sticky-top">
+                <a class="p-2" href="#perfil" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Perfil"><img src="./img/perfil.png" alt=""></a>
+                <a class="p-2" href="#formacion" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Formaciòn"><img src="./img/formacion.png" alt=""></a>
+                <a class="p-2" href="#habilidades" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Habilidades y aptitudes"><img src="./img/habilidad.png" alt=""></a>
+                <a class="p-2" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only"><img src="./img/favicon.png" alt=""></a>
+                <a class="p-2" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only"><img src="./img/favicon.png" alt=""></a>
+            </div>
+        </section>
+        <section class="cuerpo col-xl-11">
+            <div class="primer">
+            </div>
+            <!--Perfil-->
+            <div class="perfil">
+                <div class="imagen col-5">
+                    <img src="./img/perfil.png" alt="">
+                </div>
+                <div class="texto col-6">
+                    <a name="perfil"></a>
+                    <h1>Perfil</h1>
+                    <p>
+                        <span>Hola</span>, soy Jefferson Josué Herrera Fonseca, tengo 21 años, vivo en San José, San sebastián y he terminado de cursar el Técnico en Desarrollo y diseño Web, estoy en busca de mi primer trabajo, por lo tanto no cuento
+                        con ningún tipo de experiencia pero estoy listo para desempeñarme de la mejor manera y aprender más sobre las herramientas que ya se manejar y de nuevas que me ayuden a mejorar como desarrollador web.
+                    </p>
+                </div>
+            </div>
+            <!--Formación-->
+            <div class="formacion">
+                <a name="formacion"></a>
+                <h1 class="text-center">Formación</h1>
+                <div>
+                    <div class="imagen col-5">
+                        <img src="./img/colegio.png" alt="">
+                    </div>
+                    <div class="texto col-6">
+                        <a name="perfil"></a>
+                        <h2>Bachiller en educación media</h1>
+                            <p>
+                                <span>Culmine</span> el bachiller en educación media en el año 2018 en la institución Colegio Nacional Virtual Marco Tulio Salazar con sede en el Colegio Ricardo Fernandez Guardia siendo el mejor promedio de dicho colegio.
+                            </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="imagen col-5">
+                        <img src="./img/universidad.png" alt="">
+                    </div>
+                    <div class="texto col-6">
+                        <a name="perfil"></a>
+                        <h2>Técnico en Desarrollo y diseño Web</h1>
+                            <p>
+                                <span>Cursé</span> el técnico en desarrollo y diseño web en la Universidad CENFOTEC, desde julio de 2019 hasta marzo de 2021.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <!--Habilidades-->
+            <div class="habilidades">
+                <a name="habilidades"></a>
+                <h1 class="text-center">Habilidades y Aptitudes</h1>
+                <div>
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

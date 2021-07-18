@@ -1,0 +1,202 @@
+body::-webkit-scrollbar {
+  width: 7px;
+  background: #020201;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #fadf38;
+  border-radius: 5px;
+}
+
+main .sidebar {
+  background: #5cafc1;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #5cafc1), to(#e41b45));
+  background: linear-gradient(0deg, #5cafc1 30%, #e41b45 100%);
+}
+
+main .sidebar div {
+  margin-top: 90%;
+}
+
+main .sidebar div a {
+  -webkit-transition: -webkit-transform 250ms;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .sidebar div a img {
+  width: 80%;
+}
+
+main .sidebar div a:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+main .cuerpo .primer {
+  background-image: url(../img/una-taza-de-javascript.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+main .cuerpo .perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #020201;
+  padding: 10vh 0vw;
+}
+
+main .cuerpo .perfil .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .cuerpo .perfil .imagen img {
+  width: 60%;
+}
+
+main .cuerpo .perfil .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+main .cuerpo .perfil .texto h1 {
+  font-family: 'Yogomi', cursive;
+  width: 100vw;
+  color: #e41b45;
+}
+
+main .cuerpo .perfil .texto p {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  width: 50vw;
+  color: #fbedc8;
+}
+
+main .cuerpo .perfil .texto p span {
+  font-family: 'Yogomi', cursive;
+  color: #5cafc1;
+  font-size: 2rem;
+}
+
+main .cuerpo .formacion {
+  background: #020201;
+  padding: 5vh 0vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .cuerpo .formacion h1 {
+  font-family: 'Yogomi', cursive;
+  color: #e41b45;
+}
+
+main .cuerpo .formacion div {
+  margin-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+main .cuerpo .formacion div .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .cuerpo .formacion div .imagen img {
+  width: 60%;
+}
+
+main .cuerpo .formacion div .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+main .cuerpo .formacion div .texto h2 {
+  font-family: 'Yogomi', cursive;
+  width: 100vw;
+  color: #fadf38;
+}
+
+main .cuerpo .formacion div .texto p {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  width: 50vw;
+  color: #fbedc8;
+}
+
+main .cuerpo .formacion div .texto p span {
+  font-family: 'Yogomi', cursive;
+  color: #5cafc1;
+  font-size: 2rem;
+}
+
+main .cuerpo .formacion div:last-child {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .cuerpo .habilidades {
+  background: #020201;
+  padding: 5vh 0vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .cuerpo .habilidades h1 {
+  font-family: 'Yogomi', cursive;
+  color: #e41b45;
+}
+/*# sourceMappingURL=base.css.map */
