@@ -126,6 +126,44 @@ main {
                 font-family: 'Yogomi', cursive;
                 color: $rosa;
             }
+            nav {
+                padding: 5vh 0vw;
+                .nav {
+                    button {
+                        border: none;
+                        background: $negro;
+                        color: $celeste;
+                    }
+                    button:hover {
+                        color: $amarillo;
+                    }
+                }
+            }
+            .tab-content {
+                display: flex;
+                justify-content: center;
+                .hab {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    div {
+                        width: 33.3%;
+                        color: $blanco;
+                        padding: 2vh 0vw;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        img {
+                            margin: 0 auto;
+                            width: 20%;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
         }
     }
 }
