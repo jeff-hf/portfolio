@@ -8,6 +8,18 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
+main .ir-arriba {
+  display: inline-block;
+  color: #e41b45;
+  padding: 1vh 1vw;
+  font-size: 1.5rem;
+  background: #5cafc1;
+  position: fixed;
+  cursor: pointer;
+  bottom: 2%;
+  right: 1%;
+}
+
 main .sidebar {
   background: #5cafc1;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #5cafc1), to(#e41b45));
@@ -56,6 +68,8 @@ main .cuerpo .perfil {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background: #020201;
   padding: 10vh 0vw;
 }
@@ -89,6 +103,7 @@ main .cuerpo .perfil .texto h1 {
   font-family: 'Yogomi', cursive;
   width: 100vw;
   color: #e41b45;
+  padding: 2%;
 }
 
 main .cuerpo .perfil .texto p {
@@ -221,6 +236,8 @@ main .cuerpo .habilidades .tab-content {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 main .cuerpo .habilidades .tab-content .hab {

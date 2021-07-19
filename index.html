@@ -4,19 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8ec5d9fcd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/base.css">
     <title>Portafolio</title>
 </head>
 
 <body>
     <main class=" d-flex">
+        <span class="ir-arriba" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Ir arriba"><i class="fas fa-chevron-up"></i></span>
         <section class="sidebar d-none d-xl-flex col-xl-1">
             <div class="sticky-top">
                 <a class="p-2" href="#perfil" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Perfil"><img src="./img/perfil.png" alt=""></a>
@@ -31,7 +33,7 @@
             </div>
             <!--Perfil-->
             <div class="perfil">
-                <div class="imagen d-none d-lg-flex col-lg-5">
+                <div class="imagen col-12 col-lg-5">
                     <img src="./img/yo-2.png" alt="">
                 </div>
                 <div class="texto col-12 col-lg-6">
@@ -113,7 +115,10 @@
                             <p>Sql Server</p>
                         </div>
                     </div>
-                    <div class="ap tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">sadasdasdasdsadasdasd</div>
+                    <div class="ap tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <p>sadasdasdasdsadasdasd</p>
+                        <img src="./img/bootstrap.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>

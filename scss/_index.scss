@@ -9,6 +9,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
+    .ir-arriba {
+        display: inline-block;
+        color: $rosa;
+        padding: 1vh 1vw;
+        font-size: 1.5rem;
+        background: $celeste;
+        position: fixed;
+        cursor: pointer;
+        bottom: 2%;
+        right: 1%;
+    }
     .sidebar {
         background: rgb(92, 175, 193);
         background: linear-gradient(0deg, rgba(92, 175, 193, 1) 30%, rgba(228, 27, 69, 1) 100%);
@@ -38,6 +49,7 @@ main {
         .perfil {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             background: $negro;
             padding: 10vh 0vw;
             .imagen {
@@ -56,6 +68,7 @@ main {
                     font-family: 'Yogomi', cursive;
                     width: 100vw;
                     color: $rosa;
+                    padding: 2%;
                 }
                 p {
                     font-family: 'Roboto', sans-serif;
@@ -142,6 +155,7 @@ main {
             .tab-content {
                 display: flex;
                 justify-content: center;
+                flex-wrap: wrap;
                 .hab {
                     display: flex;
                     flex-direction: row;
